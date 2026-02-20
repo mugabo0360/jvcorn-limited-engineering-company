@@ -1,0 +1,895 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JVCKON LIMITED | Civil Engineering & General Building Contractor</title>
+  <!-- SEO Meta -->
+  <meta name="description" content="JVCKON LIMITED is a Ugandan civil engineering and building contractor with a proven track record in infrastructure, hotels, residential, and commercial projects since 2011. Delivering excellence on budget and schedule.">
+  <meta name="keywords" content="JVCKON, civil engineering, building contractor, Uganda, Kampala, construction, infrastructure, project management, hotels, residential, commercial">
+  <meta name="author" content="JVCKON LIMITED">
+  <link rel="canonical" href="https://www.jvckon.com">
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="JVCKON LIMITED – Engineering & Construction Excellence">
+  <meta property="og:description" content="We deliver world‑class civil infrastructure and building solutions in Uganda and beyond. On time, on budget, with the highest safety standards.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.jvckon.com">
+  <meta property="og:image" content="https://www.jvckon.com/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Favicon (placeholder) -->
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAoUlEQVR4nO3WMQ6AIAwF0E7G4E4mruDqH3UxhoaYmrRtwoAvbfL6Y1NoKYRzHgVaa71qH2MMa+2tfUQEXffWz9Fae+0TETjnuPbb+zHGsf1Ea+21r31E4Jzz7bPWZq2d1i8Acs4YY7h9/1xr/dqPc857a2utp/1mzvn5W+Scj7HW+rVfa6331lpr/drPOeer/fVba63XtN+sWmtM+80iYlp/RJ7f7gZKWgLMrqBQWgAAAABJRU5ErkJggg==">
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #1e1e2f;
+      background-color: #fbfbfd;
+      line-height: 1.5;
+      scroll-behavior: smooth;
+    }
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+    /* header / nav */
+    .navbar {
+      background: #0b1e33;
+      color: white;
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    .navbar .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .logo h1 {
+      font-size: 1.8rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      background: linear-gradient(130deg, #f0b72b, #ffd966);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .logo span {
+      font-size: 0.9rem;
+      display: block;
+      color: #aac7e6;
+      font-weight: 400;
+      letter-spacing: 1px;
+    }
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+    }
+    .nav-links a {
+      color: #eef2f7;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s;
+      font-size: 1rem;
+    }
+    .nav-links a:hover {
+      color: #f0b72b;
+    }
+    .btn-outline {
+      border: 2px solid #f0b72b;
+      background: transparent;
+      padding: 0.5rem 1.5rem;
+      border-radius: 40px;
+      font-weight: 600;
+      color: #f0b72b;
+      transition: 0.2s;
+    }
+    .btn-outline:hover {
+      background: #f0b72b;
+      color: #0b1e33;
+    }
+    /* hero */
+    .hero {
+      background: linear-gradient(135deg, #0b1e33 0%, #1a3650 100%);
+      color: white;
+      padding: 4rem 0 5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" opacity="0.05"><path fill="white" d="M20 20 L30 20 L30 80 L20 80 Z M40 40 L50 40 L50 60 L40 60 Z M60 30 L70 30 L70 70 L60 70 Z M80 50 L90 50 L90 90 L80 90Z"/></svg>');
+      background-size: 60px;
+      pointer-events: none;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: center;
+    }
+    .hero h2 {
+      font-size: 3.2rem;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 1.5rem;
+    }
+    .hero h2 span {
+      color: #f0b72b;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+      margin-bottom: 2rem;
+      max-width: 90%;
+    }
+    .hero-stats {
+      display: flex;
+      gap: 2.5rem;
+      margin: 2.5rem 0;
+    }
+    .stat-item {
+      text-align: center;
+    }
+    .stat-number {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #f0b72b;
+    }
+    .cta-group {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .btn-primary {
+      background: #f0b72b;
+      color: #0b1e33;
+      padding: 0.9rem 2.5rem;
+      border-radius: 50px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: 0.2s;
+      border: none;
+      font-size: 1rem;
+    }
+    .btn-primary:hover {
+      background: #ffcd5c;
+      transform: translateY(-3px);
+      box-shadow: 0 12px 25px -10px rgba(240,183,43,0.5);
+    }
+    .btn-secondary {
+      background: transparent;
+      border: 2px solid white;
+      color: white;
+      padding: 0.9rem 2.5rem;
+      border-radius: 50px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+    .btn-secondary:hover {
+      background: white;
+      color: #0b1e33;
+    }
+    .hero-image img {
+      width: 100%;
+      border-radius: 24px;
+      box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5);
+      border: 4px solid rgba(255,255,255,0.15);
+    }
+    /* section general */
+    section {
+      padding: 5rem 0;
+    }
+    .section-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: #0b1e33;
+      position: relative;
+      display: inline-block;
+    }
+    .section-title::after {
+      content: '';
+      display: block;
+      width: 70%;
+      height: 4px;
+      background: #f0b72b;
+      margin-top: 0.5rem;
+      border-radius: 4px;
+    }
+    .section-sub {
+      color: #4a5568;
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin-bottom: 3rem;
+    }
+    /* vision / values grid */
+    .vision-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin: 3rem 0;
+    }
+    .value-card {
+      background: white;
+      padding: 2rem 1.5rem;
+      border-radius: 24px;
+      box-shadow: 0 15px 30px -15px rgba(0,20,40,0.15);
+      transition: all 0.25s;
+      border: 1px solid #e9edf4;
+    }
+    .value-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 25px 40px -15px #0b1e3340;
+    }
+    .value-icon {
+      background: #f0b72b20;
+      width: 60px;
+      height: 60px;
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+    }
+    .value-icon i {
+      font-size: 2rem;
+      color: #f0b72b;
+    }
+    .value-card h3 {
+      margin-bottom: 0.75rem;
+      font-weight: 700;
+    }
+    /* ----- PROJECT CARDS WITH CAROUSEL (4 PHOTOS) ----- */
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .project-item {
+      background: white;
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px -8px rgba(0,0,0,0.1);
+      transition: 0.2s;
+      border: 1px solid #eef2f6;
+      display: flex;
+      flex-direction: column;
+    }
+    .project-item:hover {
+      box-shadow: 0 25px 35px -12px #0b1e3370;
+    }
+    /* carousel container */
+    .carousel {
+      position: relative;
+      width: 100%;
+      height: 220px;
+      overflow: hidden;
+      background: #0b1e33;
+    }
+    .carousel-inner {
+      display: flex;
+      transition: transform 0.4s ease;
+      height: 100%;
+    }
+    .carousel-slide {
+  min-width: 100%;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #1e3a5f; /* fallback color while loading */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  /* REMOVE this line: background-blend-mode: overlay; */
+}
+
+/* Add this new class for gradient backgrounds if you want the overlay effect */
+.carousel-slide.gradient-bg {
+  background-blend-mode: overlay;
+}
+    /* navigation buttons (small, subtle) */
+    .carousel-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0,0,0,0.5);
+      color: white;
+      border: none;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background 0.2s;
+      z-index: 10;
+      opacity: 0.7;
+    }
+    .carousel-btn:hover {
+      background: #f0b72b;
+      color: #0b1e33;
+      opacity: 1;
+    }
+    .prev {
+      left: 10px;
+    }
+    .next {
+      right: 10px;
+    }
+    /* dots indicator */
+    .carousel-dots {
+      position: absolute;
+      bottom: 8px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+      z-index: 10;
+    }
+    .dot {
+      width: 8px;
+      height: 8px;
+      background: rgba(255,255,255,0.6);
+      border-radius: 50%;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .dot.active {
+      background: #f0b72b;
+      transform: scale(1.2);
+    }
+    .project-content {
+      padding: 1.5rem;
+      flex: 1;
+    }
+    .project-content h4 {
+      font-weight: 700;
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+    .project-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin: 0.75rem 0;
+      font-size: 0.9rem;
+      color: #2c3e50;
+    }
+    .project-meta span {
+      background: #eef2f9;
+      padding: 0.2rem 1rem;
+      border-radius: 50px;
+      font-weight: 500;
+    }
+    .project-tag {
+      background: #0b1e33 !important;
+      color: white;
+    }
+    /* ethics & mission */
+    .ethics-block {
+      background: #0b1e33;
+      color: white;
+      border-radius: 40px;
+      padding: 3rem;
+      margin: 3rem 0;
+      background-image: radial-gradient(circle at 80% 30%, #1f4b6e, #0b1e33);
+    }
+    .ethics-block h3 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    .ethics-block p {
+      opacity: 0.9;
+      max-width: 800px;
+    }
+    /* contact / certificate */
+    .contact-cert {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      background: white;
+      border-radius: 32px;
+      padding: 2.5rem;
+      box-shadow: 0 20px 40px -15px #aaa;
+    }
+    .certificate-box {
+      background: #f8fafd;
+      padding: 2rem;
+      border-radius: 24px;
+      border: 1px dashed #f0b72b;
+    }
+    .tin {
+      font-family: monospace;
+      background: #e9edf4;
+      padding: 0.5rem 1rem;
+      border-radius: 40px;
+      display: inline-block;
+    }
+    .contact-line {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .contact-line i {
+      width: 30px;
+      color: #f0b72b;
+    }
+    .map-placeholder {
+      background: #cbd5e0;
+      height: 160px;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #1e293b;
+      font-weight: 500;
+    }
+    footer {
+      background: #0b1e33;
+      color: #ccdbe9;
+      padding: 3rem 0;
+      text-align: center;
+    }
+    @media (max-width: 800px) {
+      .hero-grid, .contact-cert { grid-template-columns: 1fr; }
+      .navbar .container { flex-direction: column; gap: 1rem; }
+      .nav-links { flex-wrap: wrap; justify-content: center; }
+      .hero h2 { font-size: 2.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">
+        <h1>JVCKON <span style="color:#f0b72b;">⚡</span></h1>
+        <span>Civil Engineering · General Building</span>
+      </div>
+      <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#values">Values</a>
+        <a href="#contact">Contact</a>
+        <a href="#certificate" class="btn-outline">Certificate</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <h2>Building <span>Uganda</span> & beyond <br>with integrity & innovation</h2>
+        <p>JVCKON LIMITED is a multi-award winning contractor delivering complex civil engineering, luxury hotels, residential & commercial projects – on time and on budget.</p>
+        <div class="hero-stats">
+          <div class="stat-item"><span class="stat-number">50+</span><br>Projects</div>
+          <div class="stat-item"><span class="stat-number">12+</span><br>Years</div>
+          <div class="stat-item"><span class="stat-number">100%</span><br>Completed</div>
+        </div>
+        <div class="cta-group">
+          <a href="#contact" class="btn-primary"><i class="fas fa-calendar-alt"></i> Partner with us</a>
+          <a href="#projects" class="btn-secondary"><i class="fas fa-arrow-down"></i> Explore work</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div style="background: #1d3b5c; height: 340px; border-radius: 30px; display: flex; align-items: center; justify-content: center; color: #f0b72b; font-size: 8rem; border: 4px solid #ffffff30;">
+          <i class="fas fa-hard-hat"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vision & Values -->
+  <section id="values">
+    <div class="container">
+      <h2 class="section-title">Vision & Values</h2>
+      <p class="section-sub">We are a multicultural company committed to ethical construction, employee growth and world‑class project management.</p>
+      <div class="vision-grid">
+        <div class="value-card">
+          <div class="value-icon"><i class="fas fa-globe"></i></div>
+          <h3>Global mindset</h3>
+          <p>Operating seamlessly across languages and cultures. We adapt to communities while delivering superior value.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon"><i class="fas fa-helmet-safety"></i></div>
+          <h3>Safety & ethics</h3>
+          <p>Highest HSE standards worldwide. Our code of ethics is the backbone of sustained profitability.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon"><i class="fas fa-chart-line"></i></div>
+          <h3>Innovation & growth</h3>
+          <p>Continuous investment in technical know‑how, empowering employees and encouraging share‑ownership.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon"><i class="fas fa-hand-holding-heart"></i></div>
+          <h3>Stakeholder value</h3>
+          <p>Superior returns for shareholders, respect for environment, and enduring client relationships.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- Mission & Ethics highlight -->
+  <div class="container">
+    <div class="ethics-block">
+      <h3><i class="fas fa-scale-balanced"></i> Code of Ethics & Mission</h3>
+      <p>“JL is committed to increasing its value to customers, employees and shareholders by profitably providing useful products and services. Our integrity and reputation are our most valued assets. Every employee is personally accountable.”</p>
+      <p style="margin-top: 1.5rem; font-weight: 600;">— Managing Director: Vijay Limda & Jimmy Gwayambadde</p>
+    </div>
+  </div>
+
+  <!-- Featured projects with 4‑photo carousel -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Signature projects</h2>
+      <p class="section-sub">From luxury hotels to office blocks — click through each project gallery (4 images).</p>
+      <div class="project-grid" id="projectGrid"></div>
+      <div style="text-align: center; margin: 3rem 0 0;">
+        <a href="#" class="btn-primary"><i class="fas fa-images"></i> View full portfolio (40+ projects)</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+<section id="services">
+  <div class="container">
+    <h2 class="section-title">Our Services</h2>
+    <p class="section-sub">JVCKON LIMITED delivers excellence across the principal fields of civil engineering</p>
+    
+    <div style="background: linear-gradient(135deg, #f8fafd 0%, #ffffff 100%); border-radius: 40px; padding: 3rem; margin: 2rem 0; box-shadow: 0 15px 30px -10px rgba(0,20,40,0.1);">
+      
+      <!-- The quote from your PDF -->
+      <div style="font-size: 1.3rem; line-height: 1.6; color: #1e1e2f; border-left: 6px solid #f0b72b; padding-left: 2rem; margin-bottom: 2.5rem; font-style: italic;">
+        "JVCKON LIMITED was established to carry out construction in the Principal Civil Engineering fields of Buildings, Roads, and Water. JVCKON LIMITED has secured jobs from public, private sectors through tendering and/or negotiations with clients."
+      </div>
+      
+      <!-- Service cards grid -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 2.5rem;">
+        
+        <!-- Buildings Card -->
+        <div style="background: white; border-radius: 24px; padding: 2rem 1.5rem; text-align: center; box-shadow: 0 10px 25px -8px rgba(0,0,0,0.1); transition: transform 0.3s; border: 1px solid #eef2f6;">
+          <div style="background: #f0b72b20; width: 80px; height: 80px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
+            <i class="fas fa-building" style="font-size: 2.5rem; color: #f0b72b;"></i>
+          </div>
+          <h3 style="font-size: 1.5rem; margin-bottom: 1rem; font-weight: 700;">Buildings</h3>
+          <p style="color: #4a5568;">Commercial complexes, residential apartments, hotels, schools, and institutional buildings with premium finishes.</p>
+        </div>
+        
+        <!-- Roads Card -->
+        <div style="background: white; border-radius: 24px; padding: 2rem 1.5rem; text-align: center; box-shadow: 0 10px 25px -8px rgba(0,0,0,0.1); transition: transform 0.3s; border: 1px solid #eef2f6;">
+          <div style="background: #f0b72b20; width: 80px; height: 80px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
+            <i class="fas fa-road" style="font-size: 2.5rem; color: #f0b72b;"></i>
+          </div>
+          <h3 style="font-size: 1.5rem; margin-bottom: 1rem; font-weight: 700;">Roads</h3>
+          <p style="color: #4a5568;">Highway construction, urban road networks, drainage systems, and infrastructure development.</p>
+        </div>
+        
+        <!-- Water Card -->
+        <div style="background: white; border-radius: 24px; padding: 2rem 1.5rem; text-align: center; box-shadow: 0 10px 25px -8px rgba(0,0,0,0.1); transition: transform 0.3s; border: 1px solid #eef2f6;">
+          <div style="background: #f0b72b20; width: 80px; height: 80px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
+            <i class="fas fa-water" style="font-size: 2.5rem; color: #f0b72b;"></i>
+          </div>
+          <h3 style="font-size: 1.5rem; margin-bottom: 1rem; font-weight: 700;">Water</h3>
+          <p style="color: #4a5568;">Water treatment facilities, pipeline installation, irrigation systems, and hydraulic engineering.</p>
+        </div>
+        
+        <!-- Public/Private Sector Card -->
+        <div style="background: white; border-radius: 24px; padding: 2rem 1.5rem; text-align: center; box-shadow: 0 10px 25px -8px rgba(0,0,0,0.1); transition: transform 0.3s; border: 1px solid #eef2f6;">
+          <div style="background: #f0b72b20; width: 80px; height: 80px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
+            <i class="fas fa-handshake" style="font-size: 2.5rem; color: #f0b72b;"></i>
+          </div>
+          <h3 style="font-size: 1.5rem; margin-bottom: 1rem; font-weight: 700;">Tendering & Negotiations</h3>
+          <p style="color: #4a5568;">Successfully secured projects from both public and private sectors through competitive tendering and direct client negotiations.</p>
+        </div>
+      </div>
+      
+      <!-- Stats strip -->
+      <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 2rem; margin-top: 3rem; padding-top: 2rem; border-top: 2px solid #eef2f6;">
+        <div style="text-align: center;">
+          <div style="font-size: 2rem; font-weight: 800; color: #f0b72b;">50+</div>
+          <div style="color: #4a5568;">Projects Completed</div>
+        </div>
+        <div style="text-align: center;">
+          <div style="font-size: 2rem; font-weight: 800; color: #f0b72b;">12+</div>
+          <div style="color: #4a5568;">Years Experience</div>
+        </div>
+        <div style="text-align: center;">
+          <div style="font-size: 2rem; font-weight: 800; color: #f0b72b;">Public</div>
+          <div style="color: #4a5568;">Government Contracts</div>
+        </div>
+        <div style="text-align: center;">
+          <div style="font-size: 2rem; font-weight: 800; color: #f0b72b;">Private</div>
+          <div style="color: #4a5568;">Corporate Clients</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Certificate & contact -->
+  <section id="certificate">
+    <div class="container">
+      <div class="contact-cert" id="contact">
+        <div>
+          <h3 style="font-size: 1.8rem; font-weight: 700;">Office & Directors</h3>
+          <div class="contact-line"><i class="fas fa-user-tie"></i> <strong>Vijay Limda</strong> – MD · +256 752 252 343</div>
+          <div class="contact-line"><i class="fas fa-user-tie"></i> <strong>Jimmy Gwayambadde</strong> – Director · +256 758 913 827</div>
+          <div class="contact-line"><i class="fas fa-map-pin"></i> Block 15, Plot 1276, Gogonya Zone, Kirombe Rd, Nsambya</div>
+          <div class="contact-line"><i class="fas fa-phone-alt"></i> +256 414 271 535 (fax same)</div>
+          <div class="contact-line"><i class="fas fa-envelope"></i> jvckon@gmail.com · veejaylimdaa@gmail.com</div>
+          <div class="tin">TIN: 1001157705 · P.O.Box 104297, Kampala</div>
+          <div class="map-placeholder" style="margin-top: 1.5rem;"><i class="fas fa-map"></i> Interactive Map – Kirombe Rd</div>
+        </div>
+        <div class="certificate-box">
+          <h3><i class="fas fa-certificate" style="color: #f0b72b;"></i> Registration & credentials</h3>
+          <p><strong>Certificate of Incorporation</strong> (No. 140749) – 22nd November 2011 as JVCON ENGINEERING LIMITED. Name changed to JVCON LIMITED on 5th October 2017.</p>
+          <p style="background: #0b1e33; color: white; padding: 1rem; border-radius: 16px; margin: 1.5rem 0;"><i class="fas fa-stamp"></i> Registered under Uganda Registration Services Bureau · Registrar: Nabwebale Lilian Agabele</p>
+          <p><i class="fas fa-check-circle" style="color: #2e7d32;"></i> Fully compliant with Companies Act 2012 · Shareholder equity & ethics first.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Directors / multicultural strip -->
+  <div class="container" style="margin-bottom: 3rem;">
+    <div style="display: flex; gap: 1.5rem; flex-wrap: wrap; justify-content: space-between; background: white; border-radius: 28px; padding: 2rem; box-shadow: 0 5px 20px rgba(0,0,0,0.02);">
+      <div style="display: flex; align-items: center; gap: 1rem;"><i class="fas fa-hard-hat" style="font-size: 3rem; color: #f0b72b;"></i> <span><strong>Multilingual team</strong> <br> operating in 5+ languages</span></div>
+      <div style="display: flex; align-items: center; gap: 1rem;"><i class="fas fa-handshake" style="font-size: 3rem; color: #f0b72b;"></i> <span><strong>Equity participation</strong> <br> & privatization projects</span></div>
+      <div style="display: flex; align-items: center; gap: 1rem;"><i class="fas fa-globe" style="font-size: 3rem; color: #f0b72b;"></i> <span><strong>International network</strong> <br> Sudan, UAE, East Africa</span></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p style="font-size: 2rem; font-weight: 800; color: white;">JVCKON <span style="color: #f0b72b;">LIMITED</span></p>
+      <p style="margin: 1rem 0;">Civil Engineering and General Building Contractor – Uganda</p>
+      <div style="display: flex; gap: 2rem; justify-content: center; margin: 2rem 0;">
+        <a href="#" style="color: #f0b72b;"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" style="color: #f0b72b;"><i class="fab fa-twitter"></i></a>
+        <a href="#" style="color: #f0b72b;"><i class="fab fa-facebook-f"></i></a>
+      </div>
+      <p style="opacity: 0.6;">© 2025 JVCKON LIMITED. All rights reserved. | Designed for global clients & investors</p>
+      <p style="opacity: 0.4; font-size: 0.85rem;">Certificate No. 140749 · TIN 1001157705 · Quality · HSE · Ethics</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript to generate project cards with 4‑photo carousel (each card independent) -->
+  <script>
+    (function() {
+      // each project: title, location, sum, year, client, and array of 4 image placeholders (background style)
+      const projects = [
+        {
+          title: "Essela Country Village Hotel",
+          location: "NAJJERA",
+          sum: "5.8B USHS",
+          year: "2011-12",
+          client: "Arch. Richard Mugulusi",
+          images: [
+            "./images/essela1.PNG",  // hotel facade
+            "./images/essela2.PNG",  // lobby
+            "./images/essela3.PNG",  // pool
+            
+          ]
+        },
+        {
+          title: "7‑Storied Office Block Ntinda",
+          location: "NTINDA",
+          sum: "3.55B USHS",
+          year: "2011-12",
+          client: "Bamus Holdings",
+          images: [
+             "./images/7stoyed1.PNG",  // hotel facade
+            "./images/7stoyed2.PNG",  // lobby
+            "./images/7stoyed3.PNG",  // pool
+            "./images/7stoyed4.PNG"   // suite
+          ]
+        },
+        {
+          title: "UAE Exchange Ltd Lugogo",
+          location: "LUGOGO",
+          sum: "855M USHS",
+          year: "2012",
+          client: "UAE Exchange",
+          images: [
+            "./images/uae1.PNG",  // exterior
+            "./images/uae2.PNG",  // interior
+            "./images/uae3.PNG",  // lobby
+            "./images/uae4.PNG",  // conference room
+            
+          ]
+        },
+        {
+          title: "Nsambya Apartment Dev.",
+          location: "NSAMBYA",
+          sum: "8.25B USHS",
+          year: "2019-20",
+          client: "JW Interservices",
+          images: [
+            "./images/nsabya1.PNG", 
+            "./images/nsabya3.PNG",  // exterior
+            "./images/nsabya2.PNG",  // interior
+             // lobby
+            "./images/nsabya4.PNG",  // suite
+           
+          ]
+        },
+        {
+          title: "Hotel at Kigo  (Express highway)",
+          location: "KIGO",
+          sum: "$1.56M USD",
+          year: "2019/20",
+          client: "Multi Conult & Design",
+          images: [
+            "./images/kigo1.PNG",  // exterior
+            "./images/kigo2.PNG",  // interior
+            "./images/kigo3.PNG",  // lobby
+            "./images/kigo4.PNG",  // suite
+          
+          ]
+        },
+        {
+          title: "Budo Junior School",
+          location: "BUDO",
+          sum: "1.55B USHS",
+          year: "2014-15",
+          client: "MBW Consulting",
+          images: [
+            "./images/budo1.PNG",  // exterior
+            "./images/budo2.PNG",  // interior
+            "./images/budo3.PNG",  // lobby
+            "./images/budo4.PNG",  // conference room
+            
+          ] 
+
+          
+        }
+        
+      ];
+
+      
+
+      const grid = document.getElementById('projectGrid');
+      if (!grid) return;
+
+      grid.innerHTML = ''; // clear any placeholder
+
+      projects.forEach((proj, idx) => {
+        const card = document.createElement('div');
+        card.className = 'project-item';
+
+        // generate a unique id for this carousel (e.g., carousel-0, carousel-1)
+        const carouselId = `carousel-${idx}`;
+        const slidesHtml = proj.images.map((img, i) => {
+  const isGradient = img.includes('gradient');
+  const gradientClass = isGradient ? 'gradient-bg' : '';
+  const style = isGradient 
+    ? `background-image: ${img};` 
+    : `background-image: url('${img}'); background-color: #1e3a5f;`;
+  
+  return `
+    <div class="carousel-slide ${gradientClass}" style="${style}">
+      ${!isGradient ? '' : '<i class="fas fa-image" style="opacity:0.5;"></i>'}
+    </div>
+         `;
+        }).join('');
+
+        // dots html (4)
+        let dotsHtml = '';
+        for (let d = 0; d < proj.images.length; d++) {
+          dotsHtml += `<span class="dot ${d === 0 ? 'active' : ''}" data-index="${d}"></span>`;
+        }
+
+        const carouselStructure = `
+          <div class="carousel" id="${carouselId}">
+            <div class="carousel-inner">
+              ${slidesHtml}
+            </div>
+            <button class="carousel-btn prev" data-carousel="${carouselId}"><i class="fas fa-chevron-left"></i></button>
+            <button class="carousel-btn next" data-carousel="${carouselId}"><i class="fas fa-chevron-right"></i></button>
+            <div class="carousel-dots" data-carousel="${carouselId}">
+              ${dotsHtml}
+            </div>
+          </div>
+        `;
+
+        const contentHtml = `
+          <div class="project-content">
+            <h4>${proj.title}</h4>
+            <div class="project-meta"><span>${proj.location}</span><span class="project-tag">${proj.sum}</span><span>${proj.year}</span></div>
+            <p>${proj.client}</p>
+          </div>
+        `;
+
+        card.innerHTML = carouselStructure + contentHtml;
+        grid.appendChild(card);
+      });
+
+      // ---- Carousel functionality (supports multiple independent carousels) ----
+      function setupCarousel(carouselElement) {
+        const inner = carouselElement.querySelector('.carousel-inner');
+        const slides = carouselElement.querySelectorAll('.carousel-slide');
+        const prevBtn = carouselElement.querySelector('.prev');
+        const nextBtn = carouselElement.querySelector('.next');
+        const dots = carouselElement.querySelectorAll('.dot');
+        if (!inner || slides.length === 0) return;
+
+        let currentIndex = 0;
+        const totalSlides = slides.length;
+
+        function updateCarousel(index) {
+          if (index < 0) index = 0;
+          if (index >= totalSlides) index = totalSlides - 1;
+          inner.style.transform = `translateX(-${index * 100}%)`;
+          // update dots
+          dots.forEach((dot, i) => {
+            if (i === index) dot.classList.add('active');
+            else dot.classList.remove('active');
+          });
+          currentIndex = index;
+        }
+
+        if (prevBtn) {
+          prevBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            updateCarousel(currentIndex - 1);
+          });
+        }
+        if (nextBtn) {
+          nextBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            updateCarousel(currentIndex + 1);
+          });
+        }
+        dots.forEach((dot, i) => {
+          dot.addEventListener('click', (e) => {
+            e.stopPropagation();
+            updateCarousel(i);
+          });
+        });
+        // init first
+        updateCarousel(0);
+      }
+
+      // observe all carousels (they might be added later, but we have them now)
+      const carousels = document.querySelectorAll('.carousel');
+      carousels.forEach(c => setupCarousel(c));
+    })();
+  </script>
+  <!-- Extra hidden SEO -->
+  <div style="display: none;">JVCKON civil engineering Uganda building contractor Kampala international investor hotel construction</div>
+</body>
+</html>
